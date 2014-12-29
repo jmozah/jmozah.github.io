@@ -4,7 +4,7 @@ title: Deep learning Reading List
 permalink: /links/
 ---
 
-Following is a growing list of some of the materials available i found on the web for Deep Learning beginners. 
+Following is a growing list of some of the materials i found on the web for Deep Learning beginners. 
 
 ### Free Online Books
 
