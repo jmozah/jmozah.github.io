@@ -60,6 +60,7 @@ Following is a growing list of some of the materials available i found on the we
 4. [IMAGENET](http://www.image-net.org/)
 5. [Tiny Images](http://groups.csail.mit.edu/vision/TinyImages/) 80 Million tiny images 
 6. [Flickr Data](http://yahoolabs.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images) 100 Million Yahoo dataset
+7. [Berkeley Segmentation Dataset 500](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)
 
 
 ### Frameworks
