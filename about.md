@@ -81,6 +81,7 @@ Following is a growing list of some of the materials i found on the web for Deep
 4. [Word2Vec](https://code.google.com/p/word2vec/)
 5. [Caffe DockerFile](https://registry.hub.docker.com/u/tleyden5iwx/caffe/)
 6. [TorontoDeepLEarning convnet](https://github.com/TorontoDeepLearning/convnet)
-7. [Vison data sets](http://www.cs.cmu.edu/~cil/v-images.html)
+7. [Vision data sets](http://www.cs.cmu.edu/~cil/v-images.html)
+8. [Fantastic Torch Tutorial](http://code.cogbits.com/wiki/doku.php) My personal favourite. Also check out [gfx.js](https://github.com/clementfarabet/gfx.js)
 
 
