@@ -20,6 +20,7 @@ Following is a growing list of some of the materials i found on the web for Deep
 3. [Neural networks class](https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH) by Hugo Larochelle from Université de Sherbrooke
 4. [Deep Learning Course](http://cilvr.cs.nyu.edu/doku.php?id=deeplearning:slides:start) by CILVR lab @ NYU
 5. [CS231n: Convolutional Neural Networks for Visual Recognition](http://vision.stanford.edu/teaching/cs231n/syllabus.html) On-Going
+6. [CS224d: Deep Learning for Natural Language Processing](http://cs224d.stanford.edu/) Going to start
 
 
 ### Video and Lectures
