@@ -4,15 +4,7 @@ title: Portfolio
 permalink: /links/
 ---
 
-### Zahoor Mohamed
-- [Linkedin](https://www.linkedin.com/in/j-mohamed-zahoor-294b1020/)
-- [Github](https://github.com/jmozah)
-- [Twitter](https://twitter.com/jmohamedzahoor)
-- [Blog](https://zahoor.medium.com/)
-
-
 ### Introduction
-
 - Approximately 25 years of experience
 - Passionate about data privacy and censorship resistance 
 - Lead a team of ~30 engineers from hiring to delivering the product to the first customer.
@@ -32,8 +24,11 @@ permalink: /links/
   - Storage (Web 2.0 and Web 3.0)
   - Old school Machine Learning and Convolution Neural Networks
   - Layer 1 Protocol Research and Implementation
-
-
+- Social Links
+  - [Linkedin](https://www.linkedin.com/in/j-mohamed-zahoor-294b1020/)
+  - [Github](https://github.com/jmozah)
+  - [Twitter](https://twitter.com/jmohamedzahoor)
+  - [Blog](https://zahoor.medium.com/)
 
 ### Details of Work History
 
