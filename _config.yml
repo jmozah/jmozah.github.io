@@ -1,8 +1,8 @@
 # Site settings
-title: Mini Me
+title: Zahoor Mohamed
 email: zahoor@zahoor.in
 description: > # this means to ignore newlines until "baseurl:"
-  My learnings 
+  My Blog 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "zahoor.eth" # the base hostname & protocol for your site
 twitter_username: jmohamedzahoor 
