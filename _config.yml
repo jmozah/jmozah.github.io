@@ -1,10 +1,10 @@
 # Site settings
-title: Deep Musings
-email: 
+title: Mini Me
+email: zahoor@zahoor.in
 description: > # this means to ignore newlines until "baseurl:"
-  My learnings on Deep Learning
+  My learnings 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "zahoor.eth" # the base hostname & protocol for your site
 twitter_username: jmohamedzahoor 
 github_username: jmozah        
 
