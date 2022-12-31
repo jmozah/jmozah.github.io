@@ -85,6 +85,5 @@ permalink: /links/
 - [Guest Lecture in Cohort 2](https://drive.google.com/file/d/1KSlhb1KZ9OK8M65y9VojvGVy4InMPdnE/view)
 - [Guest lecture in Mastermind Series](https://archimydes.dev/fourthact/events/web3-an-intro-to-fundamentals-concepts-and-trends)
 
-My Shardeum work is in their private Gitlab repository. They will open-source it soon and I can send a link to you then.
-
+My Shardeum work is in their private Gitlab repository. 
 
