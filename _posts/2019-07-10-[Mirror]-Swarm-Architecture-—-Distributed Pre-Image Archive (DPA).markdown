@@ -5,6 +5,8 @@ date:   2019-07-19 10:36:43
 categories: Swarm
 ---
 
+This blog was originally published [here](https://blog.datafund.net/swarm-distributed-pre-image-archive-dpa-b13f5c683f0a)
+
 As announced in my [previous post](https://jmozah.github.io/2019/06/26/Mirror-Swarm-Architecture-a-view-from-above.html), this blog is the first in a series of blogs that will take an in-depth look at the architecture of each of the modules that make up the Swarm network. Today, we’ll look at the DPA layer of Swarm, which is responsible for parcellating files into chunks and putting them back together, along with encrypting & decrypting them. In this blog, I will try to depict these four functionalities and the inner workings of the DPA. The image below shows where the DPA fits in the Swarm architecture.
 
 Note: Please read the [Swarm Architecture](https://jmozah.github.io/2019/06/26/Mirror-Swarm-Architecture-a-view-from-above.html) post before reading this one to get an idea about Swarm, its components and functionalities as a whole.
