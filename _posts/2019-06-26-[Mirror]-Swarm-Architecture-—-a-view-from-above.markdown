@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title:  "[Mirror] Swarm architecture — a view from above"
+title:  "[Mirror] Swarm architecture"
 date:   2019-06-26 10:36:43
 categories: jekyll update
 ---
