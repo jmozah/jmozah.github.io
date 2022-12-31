@@ -4,7 +4,7 @@ title:  "[Mirror] Swarm on WASM - SWASM"
 date:   2019-06-12 10:36:43
 categories: jekyll update
 ---
-This blog was originally published in my [Medium](https://medium.com/fair-data-society/swarm-on-wasm-swasm-7ec58fc78ab0)
+This blog was originally published [here](https://medium.com/fair-data-society/swarm-on-wasm-swasm-7ec58fc78ab0)
 
 
 ![image](https://user-images.githubusercontent.com/940575/210150234-b8757853-52e9-4124-bcdc-6e3365bdc293.png)
