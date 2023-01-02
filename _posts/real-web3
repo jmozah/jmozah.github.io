@@ -1,8 +1,43 @@
 ---
 layout: post
-title:  "What is real web 3.0 mean"
-date:   2019-06-12 10:36:43
-categories: Swarm
+title:  "Your understanding of Web 3.0 is wrong"
+date:   2023-01-14 10:36:43
+categories: Web 3.0
 ---
 
-When most people say theie DAPP is web 3.0 compliant, They usually mean
+When most people say their DAPP is web 3.0 compliant, they usually mean that the main business logic is in a smart contract. This is enough
+for some use cases which need trustless logic to work. But a truly decentralised application is much more than this.
+
+### Web 2.0 playbook
+Before going into Web 3.0 let us have a look at the existing blueprint of a typical Web 2.0 application. 
+As shown in the diagram above, there are three main components of a Web 2.0 application.
+- Frontend: Usually a client, like a web browser or a native application whose responsibility is restricted to User Interface. It does not contain any business logic and interacts with a centralised server to fetch information and render it to screen.
+- Backend:  Typically a program which contains business logic and knows how to process the input. This is hosted on usually hosted on one or more centralised servers depending on the processing load of the application. These backend services receive input from a Frontend client through an API, process them based on the application-specific logic and return back the output.
+- Database: The backend uses some kind of data store (RDBMS or NoSQL) to store the information or state of the client. This is based on the type of application. This is also usually hosted on one or more servers depending on the amount of data.
+
+### The current Web 3.0 model 
+Blockchain (especially programmable blockchains like Ethereum) bought a paradigm shift which eliminates a trusted centralised server to run business logic. This enabled a new class of applications which replaced most of the business logic that was there in the Backend systems and moved them as Smart Contracts. This model is fine for some applications whose business logic is boxed and does not depend on large amounts of state data.
+Let's take an example of a Decentralised Exchange (DEX) DAPP. As the image shows above, the front end is hosted similarly to a web 2.0 (client-server) model and the business logic (trustless asset exchange) is implemented in a smart contract.
+
+
+
+### Properties of True Web 3.0 Application
+Even though the current DAPPs (like DEX in the previous example) are called Web 3.0 applications, they are not fully Web 3.0 compliant. Also, we cannot build certain applications which need to store large amounts of data (Ex: Gmail, Facebook) and applications which need serverless communication (Ex: WhatsApp, Telegram). So what are the properties of a Web 3.0 application? 
+- Censorship Resistance: A web 3.0 application should be censorship resistant. That means that any centralised actors (big organisations or Government agencies)  should not be able to censor it, just like a true blockchain (Bitcoin). The entire application, including the infrastructure it uses, should be fully decentralised.
+- Liveness: The application should always be available for usage by anyone. Unlike any centralised application, it should not go down for any reason.
+- Serverless: There should not be any single server where any part of the application recides.
+- Storage
+- Communication
+
+### Three pillars of Ethereum
+
+### A model Web 3.0 DAPP
+
+
+### Missing pieces
+
+- Browser Support
+- Decentralised Storage 
+- Decentralised Compute
+- Zero Leak Communication
+- Data Privacy
