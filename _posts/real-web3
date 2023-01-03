@@ -25,14 +25,26 @@ Let's take an example of a Decentralised Exchange (DEX) DAPP. As the image shows
 Even though the current DAPPs (like DEX in the previous example) are called Web 3.0 applications, they are not fully Web 3.0 compliant. Also, we cannot build certain applications which need to store large amounts of data (Ex: Gmail, Facebook) and applications which need serverless communication (Ex: WhatsApp, Telegram). So what are the properties of a Web 3.0 application? 
 - Censorship Resistance: A web 3.0 application should be censorship resistant. That means that any centralised actors (big organisations or Government agencies)  should not be able to censor it, just like a true blockchain (Bitcoin). The entire application, including the infrastructure it uses, should be fully decentralised.
 - Liveness: The application should always be available for usage by anyone. Unlike any centralised application, it should not go down for any reason.
-- Serverless: There should not be any single server where any part of the application recides.
-- Storage
-- Communication
+- Serverless: There should not be any single server where any part of the application resides. That leads to centralisation which will defeat the above two points. By being serverless, there is no one server which will host the frontend and the application data. This makes it more resistant and censorship and gives more liveness.
+- Storage: By far the most important property is a decentralised storage which is in itself is censorship resistant. The storage should not only have a simple file upload/download (as in existing decentralised storage solutions), but should also be able to provide a battery of data structures on top of it (Ex: KV store, Linked data etc). It should also have support for getting streaming data (useful for Audio and Video streaming).
+- Communication: A fully decentralised and zero-leak communication infrastructure is a essential part of many applications. It can be used to send application protocol messages in a secure and untracable way. It should support end to end message encryption and for single and group communication.
 
 ### Three pillars of Ethereum
+The original idea of Ethereum started as three projects essential to build a world computer.
+- Ethereum Blockchain: A Internet wide consensus mechanism to agree on something in a trustless way.
+- Swarm: A decentralised storage system
+- Whisper: A decentralised  communication infrastructure
 
-### A model Web 3.0 DAPP
+Over the time, the Blockchain component became so popular that the other two projects didn't get the love they needed. Even the go-ethereum code base has a "swarm" directory (empty today pointing to the new swarm repo) where Swarm development used to take place. Over the time Whisper faded away and Swarm survived. Swarm also built a zero-leak communication infrastructure call PSS which cleverly hides the message packets as data packets so that it is had to even deduce if the communication took place at all.
 
+### Componenets required to build a model Web 3.0 DAPP
+An ideal web 3.0 application looks like the following
+
+- Uploading Frontend: The Frontend components like (HTML, CSS, JS code and other static files) should get stored in a decentralised storage and should be represented by a hash. The hash is like an IP address, when this contents of this hash is requested by a client (like browser), the storage system should deliver the full frontend components (as if it comes from a centralised server).
+- Naming System: ENS is a good example of semi-decentralised naming system. I call it semi because it still depends on the centralised DNS infrastructure to reach its top domain. But it is fine for now, since if we find a way to avoid the centralised DNS, we could still use it.
+- Browser: A P2P friendly browser which can recognize ENS URLs and contact a Ethereum node to get the respective hash that needs to be loaded. Another support that is required in the browser is the ability to speak to multiple storage peers and fetch the contents of the hash. 
+- Storage: Given the hash of the frontend, the storage component inside the browser should be able to fetch the contents from different storage peers, stitch them together and render it. A good storage system should be fully decentralised, censorship resistant and has incentivization and de-incentivisation built in to it to thwart attacks. Another important aspect that is usually missed is that it should support multiple data structures natively so that the web 2.0 frotend developers feel at home.
+- Communication:  The communication component inside the browser should be able to send a application message to its destination peer through multiple routes making it almost impossible to detect and censor.
 
 ### Missing pieces
 
@@ -41,3 +53,7 @@ Even though the current DAPPs (like DEX in the previous example) are called Web 
 - Decentralised Compute
 - Zero Leak Communication
 - Data Privacy
+
+
+Example Application 1 : Email
+Example Application 2 : Whatsapp
