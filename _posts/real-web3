@@ -47,12 +47,26 @@ An ideal web 3.0 application looks like the following
 - Communication:  The communication component inside the browser should be able to send a application message to its destination peer through multiple routes making it almost impossible to detect and censor.
 
 ### Missing pieces
-
-- Browser Support
-- Decentralised Storage 
+- P2P support in browser
+  - To resolve an ENS name to a storage hash (Swarm / IPFS etc)
+  - To Load the DAPP frontend from the storage system using its P2P module
+  - To load data / information of the DAPP from storage using its P2P module
+- Data structure support in Storage systems
+  - RDBMS like CRUD operations 
+  - NoSQL like data stores (KV store, Document Store)
+  - Search systems (inverted index like Lucene)
+  - Feed like data structures (like CRDT)
+- Identity:
+  - Identity using ENS like names
+  - UX like web 2.0 (password) but internally use Web 3.0 like Mnemonic (ex: ZkProof for login)
+- Communication:
+  - One on one Zero-leak communication
+  - Group communication (using Double Ratchet like schemes)
 - Decentralised Compute
-- Zero Leak Communication
+  - CPU renting to run arbitrary code using the data in decentralised storage
 - Data Privacy
+  - All the user data should be encrypted by the user
+  - Data should be private by default for all applications
 
 
 Example Application 1 : Email
