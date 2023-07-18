@@ -40,6 +40,7 @@ permalink: /links/
     - Built the backend of a centralized exchange
     - Worked in Proof of Stake (Consensus Layer)
     - Protocol Research in Shardeum Layer 1
+    - **Building an STM-based parallel transaction processing in EVM (multi-threaded EVM).**
 
 2. Big Data Analytics
     - Implementation of Analytics suite using CDRs 
